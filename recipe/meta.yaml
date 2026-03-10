@@ -10,7 +10,7 @@ source:
 
 build:
   number: 0
-  skip: true  # [osx or ppc64le]
+  skip: true  # [osx]
 
 requirements:
   run:
@@ -36,10 +36,12 @@ about:
   license_file: LICENSE.txt
   license: LicenseRef-NVIDIA-End-User-License-Agreement
   license_url: https://docs.nvidia.com/cuda/eula/index.html
+  license_family: Other
   summary: Meta-package containing all available library static packages.
   description: |
     Meta-package containing all available library static packages.
   doc_url: https://docs.nvidia.com/cuda/index.html
+  dev_url: https://docs.nvidia.com/cuda/index.html
 
 extra:
   recipe-maintainers:
